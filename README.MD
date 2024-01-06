@@ -43,6 +43,7 @@
 
 	9 Theoretical documentation - содержит теоретическую документацию.
 	
-	Дополнительные материалы на основе которых реализован данный фреймворк находятся по ссылке: 		
-	https://github.com/MineevS/DMM_DevClustSystem.git
+	Дополнительные материалы на основе которых реализован данный фреймворк находятся по ссылке: 
+
+		https://github.com/MineevS/DMM_DevClustSystem.git
 
