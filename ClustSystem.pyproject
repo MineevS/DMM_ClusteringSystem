@@ -1,0 +1,24 @@
+{
+    "directory": [
+        "Frameworks_interface/widgets/sliderButton",
+        "Frameworks_interface/widgets/QSpliter",
+        "Frameworks_interface/qss",
+        "Frameworks_interface/icon",
+    ],
+    "files": [
+        "Frameworks_interface/mainwindow.py",
+        "Frameworks_interface/form.ui",
+        "Frameworks_interface/resource.qrc",
+        "Frameworks_interface/SettingsApp.py",
+        "Frameworks_interface/Loader.py",
+        "ClusteringMethods/ClasteringAlgorithms.py",
+        "AnalysisMethods/AnalysisAlgorithms.py",
+        "DatasetsGenerators/make_blobs.py",
+        "DatasetsGenerators/make_circles.py",
+        "DatasetsGenerators/make_dna.py",
+        "DatasetsGenerators/make_moons.py",
+        "DatasetsGenerators/make_spheres.py",
+        "Frameworks_ccore/Loader.py",
+        "Frameworks_ccore/SettingsApp.py",
+    ]
+}
