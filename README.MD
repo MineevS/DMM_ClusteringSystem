@@ -1,5 +1,6 @@
 Система кластеризации 
-версия: 1.2
+
+Version: 1.2
 
 ![Screenshot App.](./ImageApp.png)
 
