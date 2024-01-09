@@ -1,7 +1,7 @@
 
 @Authors 
-		Mineev S. A. [mineef20@ya.ru]
-		Meshkova O. V. [larchenko.o.v@edu.mirea.ru]
+		Mineev S. A. [mineeff20@yandex.ru]
+		Meshkova O. V. [oxn.lar5@yandex.ru]
 		
 		
 Ниже приведены сведения о методах кластеризации, которые используются в данном проекте в версии v1.1.

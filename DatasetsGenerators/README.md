@@ -1,3 +1,6 @@
+# Authors:
+# 		Meshkova O. V. [oxn.lar5@yandex.ru]
+#		Mineev S. A. [mineeff20@yandex.ru]
 
 Ниже приведены сведения о методах генерации данных
 

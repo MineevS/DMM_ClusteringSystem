@@ -182,7 +182,7 @@ class SettingsApp(QDialog):
         self.setLayout(gridW)
 
         button = QPushButton()
-        button.setIcon(QIcon(':/icon/icon.ico'))
+        button.setIcon(QIcon('../Frameworks_interface/icon/icon.ico'))
         gridW.addWidget(button, 0, 0, 1, 1, Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 
         prewidget = QWidget(self)

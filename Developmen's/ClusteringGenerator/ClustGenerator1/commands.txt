@@ -1,0 +1,5 @@
+python main_script.py --data make_blobs  --samples 150 --features 2 --clusters 4 --cluster_std 1 --output blobs_data.csv --output_image blobs_plot.jpg
+
+python main_script.py --data make_circles --samples 150 --noise 0 --output circles_data.csv --output_image circles_plot.jpg
+
+python main_script.py --data make_moons --samples 150 --noise 0 --output moons_data.csv --output_image moons_plot.jpg

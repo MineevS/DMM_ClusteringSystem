@@ -1,0 +1,16 @@
+{
+    "birch":{
+        "threshold": 20,
+        "n_clusters": 3
+    },
+    "cure":{
+        "threshold": 20,
+        "n_clusters": 3
+    },
+    "rock": {
+        "radius": 19.0,
+        "n_clusters": 3,
+        "threshold": 0.1    
+    }
+}
+  

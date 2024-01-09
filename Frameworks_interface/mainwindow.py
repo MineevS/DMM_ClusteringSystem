@@ -81,7 +81,7 @@ os.environ.setdefault("LOKY_MAX_CPU_COUNT", str(5)) # Установить в з
 ORGANIZATION_NAME = 'RTU MIREA'
 ORGANIZATION_DOMAIN = 'mirea.ru'
 APPLICATION_NAME = 'ClustSystem'
-APPLICATION_VERSION = '0.1.1'
+APPLICATION_VERSION = '0.1.2'
 app = None
 LIST_TYPE_DISTRIBUTION = ['Нормальное', 'Показательное', 'Биноминальное']
 CASE_TYPES = {'lb': QLabel, 'le': QLineEdit, 'chb': QCheckBox, 'pb': QPushButton}

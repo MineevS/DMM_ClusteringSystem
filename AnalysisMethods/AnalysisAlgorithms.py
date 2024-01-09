@@ -1,3 +1,8 @@
+# Authors:
+#       Nikolaev M. A. [Misha.via@yandex.ru]
+#       Fedorov A. V. [alexis.sasis7@gmail.com]
+#       Griban M. S. [gribanms007@gmail.com]
+
 import numpy as np
 from scipy.spatial import distance
 

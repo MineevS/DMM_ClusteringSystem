@@ -1,0 +1,126 @@
+\hypertarget{namespacemain__script}{}\doxysection{main\+\_\+script Namespace Reference}
+\label{namespacemain__script}\index{main\_script@{main\_script}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacemain__script_adea6344fdbe94a1d6dda8ebf414a1c7f}{generate\+\_\+blobs}} (n\+\_\+samples, n\+\_\+features, centers, cluster\+\_\+std=1.\+0, center\+\_\+box=(-\/10.\+0, 10.\+0), shuffle=True, random\+\_\+state=None, return\+\_\+centers=False)
+\item 
+def \mbox{\hyperlink{namespacemain__script_a5c2971a2b9ea89f72210ea0c9d41606c}{generate\+\_\+circles}} (n\+\_\+samples, shuffle=True, noise=None, random\+\_\+state=None, factor=0.\+8)
+\item 
+def \mbox{\hyperlink{namespacemain__script_a517bac50616dac14dcff50d629064270}{generate\+\_\+moons}} (n\+\_\+samples, shuffle=True, noise=None, random\+\_\+state=None)
+\item 
+def \mbox{\hyperlink{namespacemain__script_a7cdd7f74c9e902c94eca2c3f76acf589}{save\+\_\+to\+\_\+csv}} (X, output\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacemain__script_a42ac85afb8746cbf55b7e54006bd422b}{plot\+\_\+data}} (X, y, title, output\+\_\+image)
+\item 
+def \mbox{\hyperlink{namespacemain__script_a8fb8f0ab99c4dbdee2c95ee2220e03b7}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@package main_script.py
+    Этот скрипт представляет собой программу на языке Python для генерации синтетических данных с использованием различных функций из библиотеки scikit-learn,
+     а также для сохранения данных в файл CSV и построения графика для визуализации данных.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacemain__script_adea6344fdbe94a1d6dda8ebf414a1c7f}\label{namespacemain__script_adea6344fdbe94a1d6dda8ebf414a1c7f}} 
+\index{main\_script@{main\_script}!generate\_blobs@{generate\_blobs}}
+\index{generate\_blobs@{generate\_blobs}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{generate\_blobs()}{generate\_blobs()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+generate\+\_\+blobs (\begin{DoxyParamCaption}\item[{}]{n\+\_\+samples,  }\item[{}]{n\+\_\+features,  }\item[{}]{centers,  }\item[{}]{cluster\+\_\+std = {\ttfamily 1.0},  }\item[{}]{center\+\_\+box = {\ttfamily (-\/10.0,~10.0)},  }\item[{}]{shuffle = {\ttfamily True},  }\item[{}]{random\+\_\+state = {\ttfamily None},  }\item[{}]{return\+\_\+centers = {\ttfamily False} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Генерация данных с использованием make_blobs.
+
+Args:
+    n_samples (int): Число точек данных.
+    n_features (int): Количество фич.
+    centers (int): Количество центров (кластеров), которые будут созданы.
+    cluster_std (float, optional): Стандартное отклонение кластеров. По умолчанию 1.0.
+    center_box (tuple, optional): Границы для каждого центра кластера. По умолчанию (-10.0, 10.0).
+    shuffle (bool, optional): Перемешивать точки данных. По умолчанию True.
+    random_state (int, optional): Состояние генератора случайных чисел для воспроизводимости. По умолчанию None.
+    return_centers (bool, optional): Возвращать центры кластеров в дополнение к точкам данных. По умолчанию False.
+
+Returns:
+    tuple: Данные X и метки y (или X, y, centers, если return_centers=True).
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacemain__script_a5c2971a2b9ea89f72210ea0c9d41606c}\label{namespacemain__script_a5c2971a2b9ea89f72210ea0c9d41606c}} 
+\index{main\_script@{main\_script}!generate\_circles@{generate\_circles}}
+\index{generate\_circles@{generate\_circles}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{generate\_circles()}{generate\_circles()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+generate\+\_\+circles (\begin{DoxyParamCaption}\item[{}]{n\+\_\+samples,  }\item[{}]{shuffle = {\ttfamily True},  }\item[{}]{noise = {\ttfamily None},  }\item[{}]{random\+\_\+state = {\ttfamily None},  }\item[{}]{factor = {\ttfamily 0.8} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Генерация данных с использованием make_circles.
+
+Args:
+    n_samples (int): Число точек данных.
+    shuffle (bool, optional): Перемешивать точки данных. По умолчанию True.
+    noise (float, optional): Стандартное отклонение (разброс данных) гауссовского шума. По умолчанию None.
+    random_state (int, optional): Состояние генератора случайных чисел для воспроизводимости. По умолчанию None.
+    factor (float, optional): Масштабный коэффициент между внутренним и внешним кругом. По умолчанию 0.8.
+
+Returns:
+    tuple: Данные X и метки y.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacemain__script_a517bac50616dac14dcff50d629064270}\label{namespacemain__script_a517bac50616dac14dcff50d629064270}} 
+\index{main\_script@{main\_script}!generate\_moons@{generate\_moons}}
+\index{generate\_moons@{generate\_moons}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{generate\_moons()}{generate\_moons()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+generate\+\_\+moons (\begin{DoxyParamCaption}\item[{}]{n\+\_\+samples,  }\item[{}]{shuffle = {\ttfamily True},  }\item[{}]{noise = {\ttfamily None},  }\item[{}]{random\+\_\+state = {\ttfamily None} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Генерация данных с использованием make_moons.
+
+Args:
+    n_samples (int): Число точек данных.
+    shuffle (bool, optional): Перемешивать точки данных. По умолчанию True.
+    noise (float, optional): Стандартное отклонение (разброс данных) гауссовского шума. По умолчанию None.
+    random_state (int, optional): Состояние генератора случайных чисел для воспроизводимости. По умолчанию None.
+
+Returns:
+    tuple: Данные X и метки y.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacemain__script_a7cdd7f74c9e902c94eca2c3f76acf589}\label{namespacemain__script_a7cdd7f74c9e902c94eca2c3f76acf589}} 
+\index{main\_script@{main\_script}!save\_to\_csv@{save\_to\_csv}}
+\index{save\_to\_csv@{save\_to\_csv}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{save\_to\_csv()}{save\_to\_csv()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+save\+\_\+to\+\_\+csv (\begin{DoxyParamCaption}\item[{}]{X,  }\item[{}]{output\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Сохранение данных в CSV файл.
+
+Args:
+    X (numpy.ndarray): Данные.
+    output_file (str): Имя выходного CSV файла.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacemain__script_a42ac85afb8746cbf55b7e54006bd422b}\label{namespacemain__script_a42ac85afb8746cbf55b7e54006bd422b}} 
+\index{main\_script@{main\_script}!plot\_data@{plot\_data}}
+\index{plot\_data@{plot\_data}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{plot\_data()}{plot\_data()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+plot\+\_\+data (\begin{DoxyParamCaption}\item[{}]{X,  }\item[{}]{y,  }\item[{}]{title,  }\item[{}]{output\+\_\+image }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Построение графика.
+
+Args:
+    X (numpy.ndarray): Данные.
+    y (numpy.ndarray): Метки классов.
+    title (str): Заголовок графика.
+    output_image (str): Имя выходного JPG изображения.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacemain__script_a8fb8f0ab99c4dbdee2c95ee2220e03b7}\label{namespacemain__script_a8fb8f0ab99c4dbdee2c95ee2220e03b7}} 
+\index{main\_script@{main\_script}!main@{main}}
+\index{main@{main}!main\_script@{main\_script}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def main\+\_\+script.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Основная функция скрипта.
+
+Пример использования:
+
+    python main_script.py --data make_blobs  --samples 150 --features 2 --clusters 4 --cluster_std 1 --output blobs_data.csv --output_image blobs_plot.jpg
+
+    python main_script.py --data make_circles --samples 150 --noise 0 --output circles_data.csv --output_image circles_plot.jpg
+
+    python main_script.py --data make_moons --samples 150 --noise 0 --output moons_data.csv --output_image moons_plot.jpg
+\end{DoxyVerb}
+ 

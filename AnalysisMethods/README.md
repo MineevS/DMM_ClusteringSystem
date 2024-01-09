@@ -1,7 +1,7 @@
 @Authors 
-		Nikolaev M. A. [nikolaev.m.a7@edu.mirea.ru]
-		Fedorov A. V. [fedorov.a.v3@edu.mirea.ru]
-		Griban M. S. [griban.m.s@edu.mirea.ru]
+		Nikolaev M. A. [Misha.via@yandex.ru]
+		Fedorov A. V. [alexis.sasis7@gmail.com]
+		Griban M. S. [gribanms007@gmail.com]
   
 Ниже приведены сведения о методах оценки качества кластеризации.
 
