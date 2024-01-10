@@ -1,5 +1,6 @@
 @Author
-	Plakhotina Y.S.[plakhotina.y.s@edu.mirea.ru]
+	Plakhotina Y.S.[ummka7@gmail.com],
+	Griban M. S. [gribanms007@gmail.com],
 
 Описание раздела:
 
