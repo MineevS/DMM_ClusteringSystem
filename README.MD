@@ -3,7 +3,7 @@
 
 ![Screenshot App.](./ImageApp.png)
 
-Лицензия: {GNU GPL}[https://wiki2.org/ru/GNU_GPL] + {CC BY}[https://wiki2.org/ru/Лицензии_и_инструменты_Creative_Commons#CC_Attribution_(сокращённо_CC_BY)]
+Лицензия: [GNU GPL](https://wiki2.org/ru/GNU_GPL) + [CC BY](https://wiki2.org/ru/Лицензии_и_инструменты_Creative_Commons#CC_Attribution_(сокращённо_CC_BY))
 
 Статус работы: 
 
