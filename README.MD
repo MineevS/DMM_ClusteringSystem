@@ -9,17 +9,17 @@
 
 	Исследовательский проект группы КММО-01-23 
 		
-		{
+		
 			Грибань Михаил Сергеевич [gribanms007@gmail.com],
 			Залетин Никита Андреевич [nicitazaletin@yandex.ru],
 			Плахотина Юлия  [ummka7@gmail.com],
 			Мешкова Ольга Вячеславовна [oxn.lar5@yandex.ru],
 			Минеев Сергей Алексеевич [mineeff20@yandex.ru],
-			Корезин Владислав Александрович [nikita.comin@gmail.com],
+			Коминцев Никита [nikita.comin@gmail.com],
 			Николаев Михаил Алексеевич [Misha.via@yandex.ru],
 			Федоров Алексей Викторович [alexis.sasis7@gmail.com],
 			Салия Лука Мерабович [saliya.luka@bk.ru],
-		}
+		
 		
 		по курсу "Дискретные математические модели" 
 		под руководством к.т.н., доц. Парфенова Д.В. (РТУ, МИРЭА) [promasterden@yandex.ru] .
